@@ -19,19 +19,15 @@ def using_shift(array)
   array.shift
 end
  
-def shift_with_args
-  array.shift
+def shift_with_args(array)
+  array.shift(2)
 end
-  takes in an argument of an array and uses the shift method with an argument of 2 to remove and return the first 2 items from the array (FAILED - 10)
-  decreases the length of the array by 2 (FAILED - 11)
-
-def using_concat
-
+  
+def using_concat(array,array1)
+  concat(array,array1)
 end
-  takes in two arguments of two different arrays and uses the concat method to add the contents of the second array to the first (FAILED - 12)
-  increases the length of the first array (FAILED - 13)
-
-def using_insert
+ 
+def using_insert(array, element)
 
 end
   takes in two arguments, an array and a new element to be added to the array. it uses the insert method to add the new element to the 4th index of the array (FAILED - 14)
