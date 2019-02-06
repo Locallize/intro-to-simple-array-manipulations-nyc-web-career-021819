@@ -28,13 +28,11 @@ def using_concat(array,array1)
 end
  
 def using_insert(array, element)
-
+  array(4, element)
 end
-  takes in two arguments, an array and a new element to be added to the array. it uses the insert method to add the new element to the 4th index of the array (FAILED - 14)
-  increases the length of the array (FAILED - 15)
 
-def using_uniq
-
+def using_uniq(array)
+array.uniq
 end
   takes in an argument of an array and uses the uniq method to remove any duplicate items (FAILED - 16)
 
