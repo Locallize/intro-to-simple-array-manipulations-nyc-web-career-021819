@@ -34,9 +34,8 @@ end
 def using_uniq(array)
 array.uniq
 end
-  takes in an argument of an array and uses the uniq method to remove any duplicate items (FAILED - 16)
-
-def using_flatten
+ 
+def using_flatten(array)
 
 end
   takes in an argument of an array that contains other arrays and uses the flatten method to return an array of strings (FAILED - 17)
